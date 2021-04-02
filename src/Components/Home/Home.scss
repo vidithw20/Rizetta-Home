@@ -1,0 +1,347 @@
+.home {
+  width: 100%;
+}
+
+.home__banner {
+  background-image: url("../Backgroundimages/brooke-lark-wMzx2nBdeng-unsplash\(1\).jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.home__banner__container {
+  position: absolute;
+  align-items: center;
+  top: 30%;
+  left: 25%;
+  right: 25%;
+  box-sizing: border-box;
+}
+
+.home__banner__logo {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 115px;
+    width: 400px;
+  }
+}
+.home__banner__slogan {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #4a4a4a;
+}
+.home__banner__content1 {
+  top: 220px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #4a4a4a;
+}
+.home__banner__content2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 0px;
+  text-align: center;
+
+  color: #e16120;
+}
+.home__buttons {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.sign__up {
+  width: 50%;
+}
+
+.sign__up__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #4b9b96;
+  border: 2px solid #4b9b96;
+  border-radius: 50px;
+  padding: 10px 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.sign__in {
+  width: 50%;
+}
+.sign__in__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #4b9b96;
+  border-radius: 50px;
+  padding: 10px 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #4b9b96;
+}
+.home__intro {
+  background-image: url("../Backgroundimages/WhatIsRizetta.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.home__intro__container {
+  background-color: yellowgreen;
+  position: absolute;
+  align-items: center;
+  margin-top: 220px;
+  height: 65%;
+  left: 15%;
+  right: 15%;
+  background: rgba(75, 155, 150, 0.45);
+  border: 7px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+}
+.home__intro__container__title {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  margin-top: 120px;
+  line-height: 96px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.home__intro__container__content {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.home__blocks {
+  display: flex;
+}
+.home__block1 {
+  background-image: url("../Backgroundimages/pexels-daniela-constantini-5591712.jpg");
+  background-repeat: no-repeat;
+  background-position: 90% 100%;
+  background-size: cover;
+  position: relative;
+  width: 25%;
+  height: 100vh;
+}
+
+.home__block2 {
+  background-image: url("../Backgroundimages/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg");
+
+  background-repeat: no-repeat;
+  background-position: 45% 100%;
+  background-size: cover;
+  position: relative;
+  width: 25%;
+  height: 100vh;
+}
+.home__block3 {
+  background-image: url("../Backgroundimages/joseph-gonzalez-hTR1XPtTo_k-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  position: relative;
+  width: 25%;
+  height: 100vh;
+}
+
+.home__block4 {
+  background-image: url("../Backgroundimages//pexels-cottonbro-3296546.jpg");
+  background-repeat: no-repeat;
+  background-position: 55% 100%;
+  background-size: cover;
+  position: relative;
+  width: 25%;
+  height: 100vh;
+}
+.home__block__bg {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home__block__title {
+  margin-top: 160px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 50px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.home__block__icon {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.home__block__content {
+  p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 420;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+.home__team {
+  background-image: url("../Backgroundimages/brooke-lark-HlNcigvUi4Q-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.home__team__container {
+  position: absolute;
+  align-items: center;
+  margin-top: 220px;
+  height: 70%;
+  left: 15%;
+  right: 15%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 7px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+}
+.home__team__container__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.home__team__container__description {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.home__team__container__members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.home__team__container__member {
+  position: relative;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 20%;
+}
+.home__team__container__member__image {
+  img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+  }
+}
+.home__team__container__member__name {
+  p {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #ffffff;
+  }
+}
+.home__footer {
+  background-color: #4b9b96;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.home__footer__logo {
+  width: 50%;
+  margin-left: 10%;
+  img {
+    height: 80px;
+    width: 280px;
+  }
+}
+.home__footer__text {
+  width: 50%;
+  p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
