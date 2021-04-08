@@ -1,0 +1,142 @@
+.home__team {
+  background-image: url("../Backgroundimages/brooke-lark-HlNcigvUi4Q-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: cover;
+  min-height: 100%;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+}
+@media only screen and (max-width: 1120px) {
+  .home__team {
+    height: 180vh;
+  }
+}
+
+.home__team__container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 700px;
+  max-width: 90%;
+  background: rgba(75, 155, 150, 0.45);
+  border: 7px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 1120px) {
+  .home__team__container {
+    margin-top: 100px;
+    max-height: 1500px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home__team__container {
+    margin-top: 100px;
+    max-height: 1050px;
+  }
+}
+.home__team__container__box {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.home__team__container__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+  margin-left: 0px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+@media only screen and (max-width: 480px) {
+  .home__team__container__title {
+    font-size: 32px;
+  }
+}
+.home__team__container__description {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #ffffff;
+}
+@media only screen and (max-width: 480px) {
+  .home__team__container__description {
+    font-size: 11px;
+    line-height: 20px;
+  }
+}
+.home__team__container__members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home__team__container__member {
+  position: relative;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 20%;
+}
+@media only screen and (max-width: 1120px) {
+  .home__team__container__member {
+    width: 50%;
+  }
+}
+.home__team__container__member__image {
+  img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home__team__container__member__image img {
+    width: 80px;
+    height: 80px;
+  }
+}
+.home__team__container__member__name {
+  p {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home__team__container__member__name p {
+    font-size: 9px;
+  }
+}

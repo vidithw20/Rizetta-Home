@@ -1,0 +1,202 @@
+.home__banner {
+  background-image: url("../Backgroundimages/brooke-lark-wMzx2nBdeng-unsplash\(1\).jpg");
+  height: 100%;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+}
+@media only screen and (max-width: 480px) {
+  .home__banner {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
+.home__banner__container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 500px;
+  max-width: 900px;
+}
+.home__banner__container__content {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+
+  .home__banner__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 115px;
+      width: 401px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .home__banner__logo {
+      margin-top: 150px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .home__banner__logo img {
+      width: 201px;
+      height: 57px;
+    }
+  }
+  .home__banner__slogan {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #4a4a4a;
+  }
+  @media only screen and (max-width: 480px) {
+    .home__banner__slogan {
+      font-size: 20px;
+      line-height: 36px;
+    }
+  }
+  .home__banner__content1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #4a4a4a;
+  }
+  @media only screen and (max-width: 480px) {
+    .home__banner__content1 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .home__banner__content2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 0px;
+    text-align: center;
+
+    color: #e16120;
+  }
+  @media only screen and (max-width: 480px) {
+    .home__banner__content2 {
+      font-size: 16px;
+    }
+  }
+  .home__buttons {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  @media only screen and (max-width: 480px) {
+    .home__buttons {
+      margin-top: 8%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .sign__up {
+    width: 100%;
+
+    .sign__up__button {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background: #4b9b96;
+      border: 2px solid #4b9b96;
+      border-radius: 50px;
+      padding: 10px 40px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+
+      text-align: center;
+
+      color: #ffffff;
+      &:hover {
+        padding: 10px 40px;
+        transition: all 0.3s ease-out;
+        background-color: transparent;
+        color: rgba(75, 155, 150, 1);
+        border-radius: 50px;
+        border: 2px solid rgba(75, 155, 150, 1);
+        transition: all 0.3s ease-out;
+      }
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .sign__up {
+      width: 100%;
+      .sign__up__button {
+        padding: 8px 32px;
+        font-size: 14px;
+      }
+    }
+  }
+  .sign__in {
+    width: 100%;
+
+    .sign__in__button {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background: rgba(255, 255, 255, 0.4);
+      border: 2px solid #4b9b96;
+      border-radius: 50px;
+      padding: 10px 40px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+
+      color: #4b9b96;
+      &:hover {
+        padding: 10px 40px;
+        transition: all 0.3s ease-out;
+        background-color: rgba(75, 155, 150, 1);
+        color: #ffffff;
+        border-radius: 50px;
+        border: 2px solid rgba(75, 155, 150, 1);
+        transition: all 0.3s ease-out;
+      }
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .sign__in {
+      width: 100%;
+      .sign__in__button {
+        padding: 8px 32px;
+        font-size: 14px;
+      }
+    }
+  }
+}

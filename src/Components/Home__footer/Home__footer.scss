@@ -1,0 +1,45 @@
+.home__footer {
+  background-color: #4b9b96;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 480px) {
+  .home__footer {
+    height: 100px;
+  }
+}
+.home__footer__logo {
+  width: 50%;
+  margin-left: 10%;
+  img {
+    height: 80px;
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home__footer__logo img {
+    height: 30px;
+    width: 105px;
+  }
+}
+.home__footer__text {
+  width: 50%;
+  p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home__footer__text p {
+    font-size: 9px;
+    line-height: 10px;
+  }
+}

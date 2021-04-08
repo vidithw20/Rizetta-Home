@@ -1,0 +1,81 @@
+.home__intro {
+  background-image: url("../Backgroundimages/WhatIsRizetta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+}
+@media only screen and (max-width: 900px) {
+  .home__intro {
+    height: 110vh;
+  }
+}
+.home__intro__container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 1000px;
+  max-width: 90%;
+  background: rgba(75, 155, 150, 0.45);
+  border: 7px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 900px) {
+  .home__intro__container {
+    margin-top: 100px;
+    max-height: 1200px;
+  }
+}
+.home__intro__container__box {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.home__intro__container__title {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  margin-top: 0px;
+  line-height: 96px;
+  width: 100%;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .home__intro__container__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+.home__intro__container__content {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .home__intro__container__content {
+    font-size: 12px;
+    line-height: 27px;
+  }
+}
